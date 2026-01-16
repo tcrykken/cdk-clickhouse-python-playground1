@@ -1,0 +1,14 @@
+{
+  "name": "cdk-stack1",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.234.1",
+    "constructs": "^10.4.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.x.x"
+  }
+}
