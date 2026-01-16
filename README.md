@@ -43,7 +43,7 @@ cdk deploy CloudStack
 ### Clean-up
 ``` bash
 # Manual deletion of stack
-cdk destroy
+cdk destroy CloudStack --region us-west-2
 # or use CloudFormation
 aws cloudformation delete-stack --stack-name CloudStack
 ```
